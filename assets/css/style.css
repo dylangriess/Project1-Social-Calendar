@@ -83,13 +83,19 @@ body {
   color: rgb(167, 98, 7);
   display: flex;
   border-radius: 15px;
-  font-style: none;
   font-size: 30px;
+  width: 100%;
+  font-family: 'Silkscreen', cursive;
+ justify-content: center;
 }
-.container-fluid {
-  width: 2000px;
+
+.container-fluid div {
+  width: 100%;
   border-radius: 20px;
   border-style: inset;
+  justify-content: center;
+  
+
 }
 
 .navbar-nav {
@@ -101,7 +107,7 @@ body {
   padding: 11px;
 }
 .navbar-nav ul {
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   list-style-type: none;
 }
 
