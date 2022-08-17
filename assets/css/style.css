@@ -24,6 +24,15 @@ body {
   border-radius: 20px;
 }
 
+#bottomSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+#bottomSection div {
+  margin: 25px;
+}
+
 #breweryLink,
 #breweryPhone {
   text-decoration: none;
