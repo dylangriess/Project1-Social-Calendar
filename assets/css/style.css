@@ -1,60 +1,59 @@
-
 :root {
-    --darkBlue: #05386b;
-    --darkGreen: #379683;
-    --mediumGreen: #5cdb95;
-    --lightGreen: #8ee4af;
-    --beige: #edf5e1;
+  --darkBlue: #05386b;
+  --darkGreen: #379683;
+  --mediumGreen: #5cdb95;
+  --lightGreen: #8ee4af;
+  --beige: #edf5e1;
 }
 
 body {
-    background-color: #5cdb95;
-
+  background-color: #5cdb95;
 }
 
-.pastEvents {
-    width: 800px;
-    height: 200px;
-    padding: 5px;
-    box-sizing: border-box;
-    position: center;
-    margin: auto;
-    border: 10px;
-    color: #8ee4af;
-    background-color: #05386b;
-    border-radius: 20px;
+.pastEvents,
+.breweryTour {
+  width: 800px;
+  height: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: center;
+  margin: auto;
+  border: 10px;
+  color: #8ee4af;
+  background-color: #05386b;
+  border-radius: 20px;
 }
 
 .button {
-    color: #edf5e1;
-    background-color: #5cdb95;
-    position: absolute;
-    left: 340px;
-    top: 100px;
+  color: #edf5e1;
+  background-color: #5cdb95;
+  position: absolute;
+  left: 340px;
+  top: 100px;
 }
 
 .event {
-    height: 50px;
-    width: 250px;
-    position: absolute;
-    left: 430px;
-    top: 80px;
+  height: 50px;
+  width: 250px;
+  position: absolute;
+  left: 430px;
+  top: 80px;
 }
 
 .h3 {
-    text-align: center;
+  text-align: center;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .navbar {
-    background-color: rgb(95, 95, 126);
-    color: rgb(167, 98, 7);
-    display: flex;
-    border-radius: 15px;
-    font-style: none;
-    font-size: 30px;
+  background-color: rgb(95, 95, 126);
+  color: rgb(167, 98, 7);
+  display: flex;
+  border-radius: 15px;
+  font-style: none;
+  font-size: 30px;
 }
 .container-fluid {
   width: 2000px;
@@ -63,27 +62,26 @@ body {
 }
 
 .navbar-nav {
-    background-color: brown;
-    border-radius: 15px;
-    border: 3px solid black;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 11px;
-    
+  background-color: brown;
+  border-radius: 15px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 11px;
 }
 .navbar-nav ul {
-    justify-content: space-evenly;
-    list-style-type: none;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 .nav-link {
-    color: rgb(48, 45, 45);
-    list-style-type: none;
-    font-family: 'Russo One', sans-serif;
-    text-decoration: none;
+  color: rgb(48, 45, 45);
+  list-style-type: none;
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
 }
 .nav-item:hover {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .table td {
@@ -110,4 +108,3 @@ body {
 td p {
   margin: 0px;
 }
-
