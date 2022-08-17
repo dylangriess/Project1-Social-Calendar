@@ -28,15 +28,13 @@ body {
 .button {
     color: #edf5e1;
     background-color: #5cdb95;
-    position: absolute;
     left: 340px;
-    top: 100px;
+    bottom: 100px;
 }
 
 .event {
     height: 50px;
     width: 250px;
-    position: absolute;
     left: 430px;
     top: 80px;
 }
