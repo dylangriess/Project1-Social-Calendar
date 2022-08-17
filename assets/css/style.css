@@ -25,18 +25,17 @@ body {
   color: white;
 }
 
-
 .bottomSection {
-    width: 800px;
-    height: 200px;
-    padding: 5px;
-    box-sizing: border-box;
-    position: center;
-    margin: auto;
-    border: 10px;
-    color: #8ee4af;
-    background-color: #05386b;
-    border-radius: 20px;
+  width: 800px;
+  height: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: center;
+  margin: auto;
+  border: 10px;
+  color: #8ee4af;
+  background-color: #05386b;
+  border-radius: 20px;
 }
 
 .pastEvents {
@@ -50,7 +49,6 @@ body {
   color: #8ee4af;
   background-color: #05386b;
   border-radius: 20px;
-
 }
 
 .button {
@@ -140,4 +138,9 @@ body {
 
 td p {
   margin: 0px;
+}
+
+td textarea {
+  background: none;
+  border: none;
 }
