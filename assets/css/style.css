@@ -25,8 +25,9 @@ body {
 #breweryPhone {
   text-decoration: none;
   color: white;
+}
 
-.pastEvents {
+.bottomSection {
     width: 800px;
     height: 200px;
     padding: 5px;
@@ -37,6 +38,20 @@ body {
     color: #8ee4af;
     background-color: #05386b;
     border-radius: 20px;
+
+}
+
+.pastEvents {
+  width: 800px;
+  height: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: center;
+  margin: auto;
+  border: 10px;
+  color: #8ee4af;
+  background-color: #05386b;
+  border-radius: 20px;
 
 }
 
