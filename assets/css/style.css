@@ -9,7 +9,6 @@
 
 body {
     background-color: #5cdb95;
-
 }
 
 .pastEvents {
@@ -38,6 +37,13 @@ body {
     left: 430px;
     top: 80px;
 }
+
+#breweryLink,
+#breweryPhone {
+  text-decoration: none;
+  color: white;
+}
+
 
 .h3 {
     text-align: center;

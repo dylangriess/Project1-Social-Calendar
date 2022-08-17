@@ -1,6 +1,7 @@
 var showBreweryBtn = document.getElementById("showBreweryBtn");
 var breweryName = document.getElementById("breweryName");
 var webSpan = document.getElementById("breweryWeb");
+var webLink = document.getElementById("breweryLink");
 var phoneSpan = document.getElementById("breweryPhone");
 
 showBreweryBtn.addEventListener("click", showBrewery);
@@ -17,6 +18,7 @@ function showBrewery() {
       rand = Math.floor(Math.random() * data.length);
       breweryName.textContent = data[rand].name;
       webSpan.textContent = data[rand].website_url;
+      webLink.href = data[rand].website_url;
       phoneSpan.textContent = data[rand].phone;
       if (data[rand].website_url === null) {
         webSpan.textContent = "website not available";
