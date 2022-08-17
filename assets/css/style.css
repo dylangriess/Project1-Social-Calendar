@@ -11,6 +11,21 @@ body {
     background-color: #5cdb95;
 }
 
+
+#bottomSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+#bottomSection div {
+  margin: 25px;
+}
+
+#breweryLink,
+#breweryPhone {
+  text-decoration: none;
+  color: white;
+
 .pastEvents {
     width: 800px;
     height: 200px;
@@ -22,6 +37,7 @@ body {
     color: #8ee4af;
     background-color: #05386b;
     border-radius: 20px;
+
 }
 
 .button {
