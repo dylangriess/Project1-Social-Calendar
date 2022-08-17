@@ -145,3 +145,8 @@ body {
 td p {
   margin: 0px;
 }
+
+td textarea {
+  background: none;
+  border: none;
+}
