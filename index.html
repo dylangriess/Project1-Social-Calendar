@@ -3,10 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Event Planner</title>
+
+
+  </head>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Russo+One&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <title>Space Invaders</title>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Russo+One&family=Silkscreen&display=swap" rel="stylesheet">
     
+
     <!--Bootstrap-->
     <link
       rel="stylesheet"
@@ -79,8 +90,18 @@
                 cols="22"
                 wrap="soft"
                 maxlength="180"
-                style="overflow: hidden; resize: none"
+                style="overflow: hidden; resize: none"/>
+              
               ></textarea>
+              div class="modal-am" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">AM Commitments</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Content </p>
             </td>
             <td>
               <p>AM:</p>
@@ -93,6 +114,9 @@
                 maxlength="180"
                 style="overflow: hidden; resize: none"
               ></textarea>
+             
+                 
+              </modal>
             </td>
             <td>
               <p>AM:</p>
@@ -244,6 +268,22 @@
         </tbody>
       </table>
     </section>
+
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    <section>
+      <div id="pastEvents" class="pastEvents">
+        <h3 id="h3" class="h3">Past Events</h3>
+        <button id="button" class="button">Add event</button>
+        <textarea id="event" class="event" placeholder="Enter Event Here"></textarea>
+
     <section id="bottomSection" class="bottomSection">
       <div id="ticketMaster" class="ticketMaster">
         <h3 id="h3" class="h3">Upcoming Events</h3>
@@ -261,18 +301,15 @@
     </section>
     <section>
       <div id="pastEvents" class="pastEvents">
-      <!--<h3 id="h3" class="h3">Past Events</h3>
-        <button id="button" class="button">Add event</button>
-        <textarea id="event" class="event" placeholder="Enter Event Here"></textarea>-->
          <main class="pastEvents">
           <h1>Past Events</h1>
           <hr />
           <h2 class="h2" id="h2">Past event with brief description.</h2>
-          <form class="shopping-form" id="shopping-form">
+          <form class="event-form" id="event-form">
             <input type="text" class="event-input" id="event-input" name="event-input" placeholder="Past Event" />
             <button class="button">Add Item</button>
           </form>
-          <ul id="shopping-list"></ul>
+          <ul id="event-list"></ul>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         </script>
       </div>

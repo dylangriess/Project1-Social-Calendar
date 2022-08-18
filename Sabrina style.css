@@ -1,0 +1,13 @@
+:root {
+    --darkBlue: #05386b;
+    --darkGreen: #379683;
+    --mediumGreen: #5cdb95;
+    --lightGreen: #8ee4af;
+    --beige: #edf5e1;
+  }
+
+body {  
+  background:rgb(10, 113, 10);
+
+}
+
