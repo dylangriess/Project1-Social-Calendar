@@ -6,6 +6,10 @@
   --beige: #edf5e1;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #5cdb95;
 }
@@ -75,9 +79,6 @@ body {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
 .navbar {
   background-color: rgb(95, 95, 126);
   color: rgb(167, 98, 7);
@@ -85,8 +86,8 @@ body {
   border-radius: 15px;
   font-size: 30px;
   width: 100%;
-  font-family: 'Silkscreen', cursive;
- justify-content: center;
+  font-family: "Silkscreen", cursive;
+  justify-content: center;
 }
 
 .container-fluid div {
@@ -94,8 +95,6 @@ body {
   border-radius: 20px;
   border-style: inset;
   justify-content: center;
-  
-
 }
 
 .navbar-nav {
@@ -149,4 +148,17 @@ td p {
 td textarea {
   background: none;
   border: none;
+}
+
+.modal-header {
+  background-color: var(--lightGreen);
+}
+
+.modal-content {
+  background-color: var(--beige);
+  color: var(--darkBlue);
+}
+
+.modal-footer button {
+  background-color: var(--darkBlue);
 }
