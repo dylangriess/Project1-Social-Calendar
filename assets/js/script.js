@@ -50,22 +50,22 @@ function showEvents() {
 
 showEvents();
 
-var shoppingFormEl = $('#shopping-form');
-var shoppingListEl = $('#shopping-list');
+var eventFormEl = $('#event-form');
+var eventListEl = $('#event-list');
 
 function handleFormSubmit(event) {
   event.preventDefault();
 
-  var shoppingItem = $('input[name="shopping-input"]').val();
+  var eventItem = $('input[name="event-input"]').val();
 
-  if (!shoppingItem) {
-    console.log('No shopping item filled out in form!');
+  if (!eventItem) {
+    console.log('No past event filled out in form!');
     return;
   }
 
-  shoppingListEl.append('<li>' + shoppingItem + '</li>');
+  eventListEl.append('<li>' + eventItem + '</li>');
 
-  $('input[name="shopping-input"]').val('');
+  $('input[name="event-input"]').val('');
 }
 
-shoppingFormEl.on('submit', handleFormSubmit);
+eventFormEl.on('submit', handleFormSubmit);
