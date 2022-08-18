@@ -32,6 +32,8 @@ function showBrewery() {
 var ticketMaster =
   "https://app.ticketmaster.com/discovery/v2/events.json?apikey=2ZnLURLhJnROlKrIvG58yKLMz8NsOCxF";
 
+var eventListEl = $("#event-list");
+
 function showEvents() {
   fetch(ticketMaster)
     .then(function (response) {
@@ -39,8 +41,13 @@ function showEvents() {
     })
     .then(function (data) {
       console.log(data);
+      for (var i = 0; i < 5; i++) {
+        eventListEl.append("<li>" + data + "</li>");
+        eventListEl.addClass("event-list");
+      }
     });
 }
+
 showEvents();
 
 var shoppingFormEl = $('#shopping-form');
