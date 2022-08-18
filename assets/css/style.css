@@ -73,12 +73,12 @@ main {
   width: 50ch;
 }
 
-ul {
+.pastevents ul {
   margin: 3rem auto;
   font-size: 1.75rem;
 }
 
-ul li {
+.pastevents ul li {
   margin: 1.2rem 0;
 }
 
@@ -93,7 +93,7 @@ ul li {
   right: 322px;
 }
 
-.event {  
+.event {
   height: 50px;
   width: 250px;
   left: 430px;
@@ -171,6 +171,11 @@ ul li {
 
 .table-body tr {
   height: 250px;
+}
+
+.table-body tr td {
+  background-color: var(--beige);
+  border: 3px solid var(--mediumGreen);
 }
 
 td p {
