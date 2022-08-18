@@ -1,2 +1,5 @@
-var morningEvents = document.getElementById("modal-title");
-console.log ("AM Commitments");
+console.log ("Hello world!");
+
+
+var scheduleAM = (document.getElementsByClassName("modal"));
+console.log (".modal");
