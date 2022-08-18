@@ -3,16 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css">
-    <title>Event Planner</title>
-
-
-  </head>
-  
-     <title>Event Planner</title>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Russo+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Space Invaders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Russo+One&family=Silkscreen&display=swap" rel="stylesheet">
+    
     <!--Bootstrap-->
     <link
       rel="stylesheet"
@@ -24,10 +18,12 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
+        <h1>SOCIAL SPACE INVADERS</h1>
         
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link"
+              data-bs-toggle="modal" data-bs-target="#aboutModal">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#breweryTour">Brewery</a>
@@ -41,7 +37,24 @@
     </nav>
   </header>
   <body>
-  
+<!-- Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="aboutModalLabel">About Social Space Invaders</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>This collaborative front-end project allows users to manage a weekly schedule by interacting with the calendar to input events and social activities. Users will also be provided with tools for brewery suggestions in their area. Past events will be stored at the bottom for user reviews.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Try it Out!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Table-->
     <section>
       <table class="table">
         <thead class="table-dark">
@@ -60,6 +73,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -71,6 +85,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -82,6 +97,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -93,6 +109,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -104,6 +121,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -115,6 +133,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -126,6 +145,7 @@
             <td>
               <p>AM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -139,6 +159,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -150,6 +171,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -161,6 +183,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -172,6 +195,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -183,6 +207,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -194,6 +219,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
@@ -205,6 +231,7 @@
             <td>
               <p>PM:</p>
               <textarea
+              placeholder="Add Event"
                 name="text"
                 rows="10"
                 cols="22"
