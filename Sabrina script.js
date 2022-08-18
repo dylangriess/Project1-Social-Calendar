@@ -1,5 +1,1 @@
-console.log ("Hello world!");
-
-
-var scheduleAM = (document.getElementsByClassName("modal"));
-console.log (".modal");
+var showmodal = document.getElementsByClassName('modal');
