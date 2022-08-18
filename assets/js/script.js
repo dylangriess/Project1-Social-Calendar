@@ -59,7 +59,7 @@ function showEvents() {
 showEvents();
 
 var eventFormEl = $("#event-form");
-var eventListEl = $("#event-list");
+var pastEventListEl = $("#past-event-list");
 
 function handleFormSubmit(event) {
   event.preventDefault();
@@ -71,7 +71,7 @@ function handleFormSubmit(event) {
     return;
   }
 
-  eventListEl.append("<li>" + eventItem + "</li>");
+  pastEventListEl.append("<li>" + eventItem + "</li>");
 
   $('input[name="event-input"]').val("");
 }

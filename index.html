@@ -68,7 +68,7 @@
     </div>
     <!--Table-->
     <section>
-      <table class="table">
+      <table class="table justify-content-center">
         <thead class="table-dark">
           <tr>
             <th scope="col">Sunday</th>
@@ -131,17 +131,6 @@
       </table>
     </section>
 
-    
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div> 
-    <section>
-    
     <section id="bottomSection" class="bottomSection">
       <div id="ticketMaster" class="ticketMaster">
         <h3 id="h3" class="h3">Upcoming: Live Music</h3>
@@ -151,29 +140,27 @@
       </div>
       <div id="breweryTour" class="breweryTour">
         <h3 id="h3" class="h3">Brewery Tour</h3>
-        <button id="showBreweryBtn">Show Me a Denver Brewery</button>
+        <button class="button" id="showBreweryBtn">Show Me a Denver Brewery</button>
         <h4 id="breweryName"></h4>
         <p>Website: <a id="breweryLink"><span id="breweryWeb"></span></a></p>
         <p>Phone: <span id="breweryPhone"></span></p>
       </div>
     </section>
-    <section id="bottomSection" class="bottomSection">
+    <section class="pastEventsContainer">
       <div id="pastEvents" class="pastEvents">
-         <main class="pastEvents">
-          <h1>Past Events</h1>
+          <h3>Past Events</h3>
           <hr />
-          <h2 class="h2" id="h2">Past event with brief description.</h2>
+          <h4>Past event with brief description.</h4>
           <form class="event-form" id="event-form">
-            <input type="text" class="event-input" id="event-input" name="event-input" placeholder="Past Event" />
+            <input type="text" class="event-input" id="event-input" name="event-input" placeholder="Enter past event:" />
             <button class="button">Add Item</button>
           </form>
-          <ul id="event-list"></ul>
+          <ul id="past-event-list"></ul>
       </div>
-     
     </section>
     <br>
     <section class="widget">
-      <div w-type="event-discovery" w-tmapikey="pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz" w-googleapikey="YOUR_GOOGLE_API_KEY" w-keyword="" w-theme="simple" w-colorscheme="custom" w-width="900" w-height="286" w-size="29" w-border="5" w-borderradius="35" w-postalcode="" w-radius="25" w-city="Denver" w-period="month" w-layout="horizontal" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-sorting="groupByName" w-id="id_yephmd" w-countrycode="US" w-source="ticketweb" w-branding="Ticketmaster" w-poweredbybackgroundcolor="#ffffff" w-buybuttonbackgroundcolor="#39b868" w-buybuttonbackgroundhovercolor="#2a7cc7" w-bordercolor="#065e91" w-latlong=""></div>
+      <div w-type="event-discovery" w-tmapikey="pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz" w-googleapikey="YOUR_GOOGLE_API_KEY" w-keyword="" w-theme="simple" w-colorscheme="custom" w-width="900" w-height="300" w-size="29" w-border="5" w-borderradius="35" w-postalcode="" w-radius="25" w-city="Denver" w-period="month" w-layout="horizontal" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-sorting="groupByName" w-id="id_yephmd" w-countrycode="US" w-source="ticketweb" w-branding="Ticketmaster" w-poweredbybackgroundcolor="#ffffff" w-buybuttonbackgroundcolor="#39b868" w-buybuttonbackgroundhovercolor="#2a7cc7" w-bordercolor="#065e91" w-latlong=""></div>
     </section>
 
     <!-- Ticketmaster Widget -->
