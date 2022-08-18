@@ -28,3 +28,17 @@ function showBrewery() {
       }
     });
 }
+
+var ticketMaster =
+  "https://app.ticketmaster.com/discovery/v2/events.json?apikey=2ZnLURLhJnROlKrIvG58yKLMz8NsOCxF";
+
+function showEvents() {
+  fetch(ticketMaster)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      console.log(data);
+    });
+}
+showEvents();
