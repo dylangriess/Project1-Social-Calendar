@@ -4,7 +4,7 @@ var webSpan = document.getElementById("breweryWeb");
 var webLink = document.getElementById("breweryLink");
 var phoneSpan = document.getElementById("breweryPhone");
 
-showBreweryBtn.addEventListener("click", showBrewery);
+// showBreweryBtn.addEventListener("click", showBrewery);
 
 var breweriesDenver =
   "https://api.openbrewerydb.org/breweries?by_city=Denver&per_page=50";
