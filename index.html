@@ -9,7 +9,7 @@
     <title>Event Planner</title>
 
 
-  </head>
+ 
   
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Russo+One&display=swap" rel="stylesheet">
 
@@ -80,189 +80,50 @@
           </tr>
         </thead>
         <tbody class="table-body">
-          <tr>
+          <tr class="AM-events">
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"/>
-              
-              ></textarea>
-              div class="modal-am" tabindex="-1">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title">AM Commitments</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p> Content </p>
+              <p></p>
             </td>
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
-             
-                 
-              </modal>
+              <p></p>
             </td>
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>AM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
           </tr>
-          <tr>
+          <tr class="PM-events">
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
             <td>
-              <p>PM:</p>
-              <textarea
-              placeholder="Add Event"
-                name="text"
-                rows="10"
-                cols="22"
-                wrap="soft"
-                maxlength="180"
-                style="overflow: hidden; resize: none"
-              ></textarea>
+              <p></p>
             </td>
           </tr>
         </tbody>
@@ -295,7 +156,7 @@
         <p>Phone: <span id="breweryPhone"></span></p>
       </div>
     </section>
-    <section>
+    <section id="bottomSection" class="bottomSection">
       <div id="pastEvents" class="pastEvents">
          <main class="pastEvents">
           <h1>Past Events</h1>
@@ -306,13 +167,12 @@
             <button class="button">Add Item</button>
           </form>
           <ul id="event-list"></ul>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        </script>
+      </div>
+      <div class="widget">
+        <div w-type="event-discovery" w-tmapikey="pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz" w-googleapikey="YOUR_GOOGLE_API_KEY" w-keyword="" w-theme="simple" w-colorscheme="custom" w-width="900" w-height="286" w-size="29" w-border="5" w-borderradius="35" w-postalcode="" w-radius="25" w-city="Denver" w-period="month" w-layout="horizontal" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-sorting="groupByName" w-id="id_yephmd" w-countrycode="US" w-source="ticketweb" w-branding="Ticketmaster" w-poweredbybackgroundcolor="#ffffff" w-buybuttonbackgroundcolor="#39b868" w-buybuttonbackgroundhovercolor="#2a7cc7" w-bordercolor="#065e91" w-latlong=""></div>
       </div>
     </section>
-    <section class="widget">
-      <div w-type="event-discovery" w-tmapikey="pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz" w-googleapikey="YOUR_GOOGLE_API_KEY" w-keyword="" w-theme="simple" w-colorscheme="custom" w-width="1000" w-height="286" w-size="29" w-border="5" w-borderradius="35" w-postalcode="" w-radius="25" w-city="Denver" w-period="month" w-layout="horizontal" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-sorting="groupByName" w-id="id_yephmd" w-countrycode="US" w-source="ticketweb" w-branding="Ticketmaster" w-poweredbybackgroundcolor="#ffffff" w-buybuttonbackgroundcolor="#39b868" w-buybuttonbackgroundhovercolor="#2a7cc7" w-bordercolor="#065e91" w-latlong=""></div>
-    </section>
+
     <!-- Ticketmaster Widget -->
     <script src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/event-discovery/1.0.0/lib/main-widget.js"></script>
     <!--JQuery-->
