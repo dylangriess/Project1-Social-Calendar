@@ -1,0 +1,49 @@
+:root {
+    --darkBlue: #05386b;
+    --darkGreen: #379683;
+    --mediumGreen: #5cdb95;
+    --lightGreen: #8ee4af;
+    --beige: #edf5e1;
+  }
+
+
+  body { 
+    background-color:#737576;
+    color: #edf5e1;
+
+
+
+  }
+  
+.button {
+color: rgb(196, 240, 255);
+background-color:#05386b
+
+}
+
+
+
+
+
+
+
+
+  .modal-am {
+    position:flex;
+    font-size:16px;
+    background-color:#379683;
+    color:#edf5e1;
+    text-align:center;
+}
+
+#h5 {  background-color: antiquewhite;
+    text-align:center;
+    font-size: 20px;
+
+
+}
+
+label .notes-section { 
+
+background:greenyellow;
+}
