@@ -30,12 +30,12 @@ body {
 }
 
 .h1 {
-  color: var(--beige)
+  color: var(--beige);
 }
 
 .bottomSection {
-  width: 800px;
-  height: 200px;
+  width: 1200px;
+  height: 300px;
   padding: 5px;
   box-sizing: border-box;
   position: center;
@@ -47,11 +47,12 @@ body {
 }
 
 .pastEvents {
-  width: 800px;
-  height: 200px;
+  width: 1200px;
+  height: 300px;
   padding: 5px;
   box-sizing: border-box;
   position: center;
+  text-align: center;
   margin: auto;
   border: 10px;
   color: #8ee4af;
@@ -60,13 +61,39 @@ body {
 }
 
 .button {
-  color: #edf5e1;
+  color: black;
   background-color: #5cdb95;
   left: 340px;
   bottom: 100px;
 }
 
-.event {
+main {
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 50ch;
+}
+
+ul {
+  margin: 3rem auto;
+  font-size: 1.75rem;
+}
+
+ul li {
+  margin: 1.2rem 0;
+}
+
+.h2 {
+  text-align: left;
+}
+
+.event-input {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  right: 322px;
+}
+
+.event {  
   height: 50px;
   width: 250px;
   left: 430px;
@@ -77,10 +104,6 @@ body {
 #breweryPhone {
   text-decoration: none;
   color: white;
-}
-
-.h3 {
-  text-align: center;
 }
 
 .navbar {
@@ -171,8 +194,15 @@ td textarea {
 .modal-footer button {
   background-color: var(--darkBlue);
 }
+
 .widget {
   display: flex;
   justify-items: center;
   margin-left: 420px;
 }
+
+
+.event-list {
+  color: var(--beige);
+}
+
