@@ -115,6 +115,7 @@ ul li {
   width: 100%;
   font-family: "Silkscreen", cursive;
   justify-content: center;
+  padding: 10px;
 }
 
 .container-fluid div {
@@ -122,6 +123,7 @@ ul li {
   border-radius: 20px;
   border-style: inset;
   justify-content: center;
+  padding: 10px;
 }
 
 .navbar-nav {
@@ -193,6 +195,14 @@ td textarea {
   background-color: var(--darkBlue);
 }
 
+.widget {
+  display: flex;
+  justify-items: center;
+  margin-left: 420px;
+}
+
+
 .event-list {
   color: var(--beige);
 }
+
