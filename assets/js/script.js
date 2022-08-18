@@ -30,7 +30,7 @@ function showBrewery() {
 }
 
 var ticketMaster =
-  "https://app.ticketmaster.com/discovery/v2/events.json?apikey=2ZnLURLhJnROlKrIvG58yKLMz8NsOCxF";
+  "https://app.ticketmaster.com/discovery/v2/events.json?apikey=2ZnLURLhJnROlKrIvG58yKLMz8NsOCxF&city=Denver&classificationName=Concert&sort=date,asc";
 
 var eventListEl = $("#event-list");
 
@@ -41,8 +41,16 @@ function showEvents() {
     })
     .then(function (data) {
       console.log(data);
-      for (var i = 0; i < 5; i++) {
-        eventListEl.append("<li>" + data + "</li>");
+      for (var i = 0; i <= 5; i++) {
+        eventListEl.append(
+          "<li>" +
+            data._embedded.events[i].name +
+            " | " +
+            data._embedded.events[i]._embedded.venues[0].name +
+            " | " +
+            data._embedded.events[i].dates.start.localDate +
+            "</li>"
+        );
         eventListEl.addClass("event-list");
       }
     });
@@ -50,8 +58,8 @@ function showEvents() {
 
 showEvents();
 
-var eventFormEl = $('#event-form');
-var eventListEl = $('#event-list');
+var eventFormEl = $("#event-form");
+var pastEventListEl = $("#past-event-list");
 
 function handleFormSubmit(event) {
   event.preventDefault();
@@ -59,13 +67,13 @@ function handleFormSubmit(event) {
   var eventItem = $('input[name="event-input"]').val();
 
   if (!eventItem) {
-    console.log('No past event filled out in form!');
+    console.log("No past event filled out in form!");
     return;
   }
 
-  eventListEl.append('<li>' + eventItem + '</li>');
+  pastEventListEl.append("<li>" + eventItem + "</li>");
 
-  $('input[name="event-input"]').val('');
+  $('input[name="event-input"]').val("");
 }
 
-eventFormEl.on('submit', handleFormSubmit);
+eventFormEl.on("submit", handleFormSubmit);

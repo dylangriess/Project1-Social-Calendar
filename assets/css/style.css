@@ -19,10 +19,6 @@ body {
   justify-content: space-around;
 }
 
-#bottomSection div {
-  margin: 25px;
-}
-
 #breweryLink,
 #breweryPhone {
   text-decoration: none;
@@ -33,38 +29,43 @@ body {
   color: var(--beige);
 }
 
-.bottomSection {
-  width: 1200px;
+.breweryTour,
+.ticketMaster {
+  width: 50%;
   height: 300px;
   padding: 5px;
   box-sizing: border-box;
-  position: center;
-  margin: auto;
-  border: 10px;
+  margin: 20px;
+  border: var(--beige) 3px solid;
   color: #8ee4af;
   background-color: #05386b;
   border-radius: 20px;
 }
 
 .pastEvents {
-  width: 1200px;
+  width: 70%;
   height: 300px;
   padding: 5px;
   box-sizing: border-box;
-  position: center;
-  text-align: center;
   margin: auto;
-  border: 10px;
+  border: var(--beige) 3px solid;
   color: #8ee4af;
   background-color: #05386b;
   border-radius: 20px;
 }
 
+.pastEventsContainer {
+  display: flex;
+}
+
 .button {
+  display: block;
   color: black;
   background-color: #5cdb95;
   left: 340px;
   bottom: 100px;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
 }
 
 main {
@@ -73,27 +74,21 @@ main {
   width: 50ch;
 }
 
-ul {
-  margin: 3rem auto;
-  font-size: 1.75rem;
-}
-
-ul li {
-  margin: 1.2rem 0;
-}
-
 .h2 {
   text-align: left;
+}
+
+.event-list {
+  color: var(--beige);
 }
 
 .event-input {
   width: 400px;
   height: 100px;
-  position: relative;
-  right: 322px;
+  background-color: var(--beige);
 }
 
-.event {  
+.event {
   height: 50px;
   width: 250px;
   left: 430px;
@@ -110,7 +105,6 @@ ul li {
   background-color: rgb(95, 95, 126);
   color: rgb(167, 98, 7);
   display: flex;
-  border-radius: 15px;
   font-size: 30px;
   width: 100%;
   font-family: "Silkscreen", cursive;
@@ -129,7 +123,7 @@ ul li {
 .navbar-nav {
   background-color: var(--beige);
   border-radius: 15px;
-  border: 3px solid black;
+  border: 5px solid var(--mediumGreen);
   display: flex;
   justify-content: space-evenly;
   padding: 11px;
@@ -147,6 +141,15 @@ ul li {
 }
 .nav-item:hover {
   font-size: 40px;
+}
+
+table th {
+  text-align: center;
+}
+
+.table {
+  margin: auto;
+  width: 90% !important;
 }
 
 .table td {
@@ -173,6 +176,12 @@ ul li {
   height: 250px;
 }
 
+.table-body tr td {
+  background-color: var(--beige);
+  border: 3px solid var(--mediumGreen);
+  border-radius: 20px;
+}
+
 td p {
   margin: 0px;
 }
@@ -197,12 +206,5 @@ td textarea {
 
 .widget {
   display: flex;
-  justify-items: center;
-  margin-left: 420px;
+  justify-content: center;
 }
-
-
-.event-list {
-  color: var(--beige);
-}
-
