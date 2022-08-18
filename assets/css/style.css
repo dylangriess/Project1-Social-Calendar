@@ -30,12 +30,12 @@ body {
 }
 
 .h1 {
-  color: var(--beige)
+  color: var(--beige);
 }
 
 .bottomSection {
-  width: 800px;
-  height: 200px;
+  width: 1200px;
+  height: 300px;
   padding: 5px;
   box-sizing: border-box;
   position: center;
@@ -191,4 +191,8 @@ td textarea {
 
 .modal-footer button {
   background-color: var(--darkBlue);
+}
+
+.event-list {
+  color: var(--beige);
 }
