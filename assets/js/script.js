@@ -111,3 +111,224 @@ function displaySundayAM() {
 }
 displaySundayAM();
 // </SUNDAY AM>
+
+// <SUNDAY PM>
+var sundayPMinput = document.getElementById("sunday-pm");
+var sundayPMsave = document.getElementById("sunday-pm-save");
+var sundayPMdisplay = document.getElementById("sunday-pm-display");
+
+sundayPMsave.addEventListener("click", saveSundayPM);
+function saveSundayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("sundayPM", sundayPMinput.value);
+}
+
+function displaySundayPM() {
+  sundayPMdisplay.textContent = localStorage.getItem("sundayPM");
+}
+displaySundayPM();
+// </SUNDAY PM>
+
+// <MONDAY AM>
+var mondayAMinput = document.getElementById("monday-am");
+var mondayAMsave = document.getElementById("monday-am-save");
+var mondayAMdisplay = document.getElementById("monday-am-display");
+
+mondayAMsave.addEventListener("click", saveMondayAM);
+function saveMondayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("mondayAM", mondayAMinput.value);
+}
+
+function displayMondayAM() {
+  mondayAMdisplay.textContent = localStorage.getItem("mondayAM");
+}
+displayMondayAM();
+// </MONDAY AM>
+
+// <MONDAY PM>
+var mondayPMinput = document.getElementById("monday-pm");
+var mondayPMsave = document.getElementById("monday-pm-save");
+var mondayPMdisplay = document.getElementById("monday-pm-display");
+
+mondayPMsave.addEventListener("click", saveMondayPM);
+function saveMondayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("mondayPM", mondayPMinput.value);
+}
+
+function displayMondayPM() {
+  mondayPMdisplay.textContent = localStorage.getItem("mondayPM");
+}
+displayMondayPM();
+// </MONDAY PM>
+
+// <TUESDAY AM>
+var tuesdayAMinput = document.getElementById("tuesday-am");
+var tuesdayAMsave = document.getElementById("tuesday-am-save");
+var tuesdayAMdisplay = document.getElementById("tuesday-am-display");
+
+tuesdayAMsave.addEventListener("click", saveTuesdayAM);
+function saveTuesdayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("tuesdayAM", tuesdayAMinput.value);
+}
+
+function displayTuesdayAM() {
+  tuesdayAMdisplay.textContent = localStorage.getItem("tuesdayAM");
+}
+displayTuesdayAM();
+// </TUESDAY AM>
+
+// <TUESDAY PM>
+var tuesdayPMinput = document.getElementById("tuesday-pm");
+var tuesdayPMsave = document.getElementById("tuesday-pm-save");
+var tuesdayPMdisplay = document.getElementById("tuesday-pm-display");
+
+tuesdayPMsave.addEventListener("click", saveTuesdayPM);
+function saveTuesdayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("tuesdayPM", tuesdayPMinput.value);
+}
+
+function displayTuesdayPM() {
+  tuesdayPMdisplay.textContent = localStorage.getItem("tuesdayPM");
+}
+displayTuesdayPM();
+// </TUESDAY PM>
+
+// <WEDNESDAY AM>
+var wednesdayAMinput = document.getElementById("wednesday-am");
+var wednesdayAMsave = document.getElementById("wednesday-am-save");
+var wednesdayAMdisplay = document.getElementById("wednesday-am-display");
+
+wednesdayAMsave.addEventListener("click", saveWednesdayAM);
+function saveWednesdayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("wednesdayAM", wednesdayAMinput.value);
+}
+
+function displayWednesdayAM() {
+  wednesdayAMdisplay.textContent = localStorage.getItem("wednesdayAM");
+}
+displayWednesdayAM();
+// </WEDNESDAY AM>
+
+// <WEDNESDAY PM>
+var wednesdayPMinput = document.getElementById("wednesday-pm");
+var wednesdayPMsave = document.getElementById("wednesday-pm-save");
+var wednesdayPMdisplay = document.getElementById("wednesday-pm-display");
+
+wednesdayPMsave.addEventListener("click", saveWednesdayPM);
+function saveWednesdayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("wednesdayPM", wednesdayPMinput.value);
+}
+
+function displayWednesdayPM() {
+  wednesdayPMdisplay.textContent = localStorage.getItem("wednesdayPM");
+}
+displayWednesdayPM();
+// </WEDNESDAY PM>
+
+// <THURSDAY AM>
+var thursdayAMinput = document.getElementById("thursday-am");
+var thursdayAMsave = document.getElementById("thursday-am-save");
+var thursdayAMdisplay = document.getElementById("thursday-am-display");
+
+thursdayAMsave.addEventListener("click", saveThursdayAM);
+function saveThursdayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("thursdayAM", thursdayAMinput.value);
+}
+
+function displayThursdayAM() {
+  thursdayAMdisplay.textContent = localStorage.getItem("thursdayAM");
+}
+displayThursdayAM();
+// </THURSDAY AM>
+
+// <THURSDAY PM>
+var thursdayPMinput = document.getElementById("thursday-pm");
+var thursdayPMsave = document.getElementById("thursday-pm-save");
+var thursdayPMdisplay = document.getElementById("thursday-pm-display");
+
+thursdayPMsave.addEventListener("click", saveThursdayPM);
+function saveThursdayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("thursdayPM", thursdayPMinput.value);
+}
+
+function displayThursdayPM() {
+  thursdayPMdisplay.textContent = localStorage.getItem("thursdayPM");
+}
+displayThursdayPM();
+// </THURSDAY PM>
+
+// <FRIDAY AM>
+var fridayAMinput = document.getElementById("friday-am");
+var fridayAMsave = document.getElementById("friday-am-save");
+var fridayAMdisplay = document.getElementById("friday-am-display");
+
+fridayAMsave.addEventListener("click", saveFridayAM);
+function saveFridayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("fridayAM", fridayAMinput.value);
+}
+
+function displayFridayAM() {
+  fridayAMdisplay.textContent = localStorage.getItem("fridayAM");
+}
+displayFridayAM();
+// </FRIDAY AM>
+
+// <FRIDAY PM>
+var fridayPMinput = document.getElementById("friday-pm");
+var fridayPMsave = document.getElementById("friday-pm-save");
+var fridayPMdisplay = document.getElementById("friday-pm-display");
+
+fridayPMsave.addEventListener("click", saveFridayPM);
+function saveFridayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("fridayPM", fridayPMinput.value);
+}
+
+function displayFridayPM() {
+  fridayPMdisplay.textContent = localStorage.getItem("fridayPM");
+}
+displayFridayPM();
+// </FRIDAY PM>
+
+// <SATURDAY AM>
+var saturdayAMinput = document.getElementById("saturday-am");
+var saturdayAMsave = document.getElementById("saturday-am-save");
+var saturdayAMdisplay = document.getElementById("saturday-am-display");
+
+saturdayAMsave.addEventListener("click", saveSaturdayAM);
+function saveSaturdayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("saturdayAM", saturdayAMinput.value);
+}
+
+function displaySaturdayAM() {
+  saturdayAMdisplay.textContent = localStorage.getItem("saturdayAM");
+}
+displaySaturdayAM();
+// </SATURDAY AM>
+
+// <SATURDAY PM>
+var saturdayPMinput = document.getElementById("saturday-pm");
+var saturdayPMsave = document.getElementById("saturday-pm-save");
+var saturdayPMdisplay = document.getElementById("saturday-pm-display");
+
+saturdayPMsave.addEventListener("click", saveSaturdayPM);
+function saveSaturdayPM(event) {
+  event.preventDefault();
+  localStorage.setItem("saturdayPM", saturdayPMinput.value);
+}
+
+function displaySaturdayPM() {
+  saturdayPMdisplay.textContent = localStorage.getItem("saturdayPM");
+}
+displaySaturdayPM();
+// </SATURDAY PM>
