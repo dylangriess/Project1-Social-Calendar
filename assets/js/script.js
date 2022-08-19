@@ -104,6 +104,7 @@ sundayAMsave.addEventListener("click", saveSundayAM);
 function saveSundayAM(event) {
   event.preventDefault();
   localStorage.setItem("sundayAM", sundayAMinput.value);
+  sundayAMdisplay.textContent = localStorage.getItem("sundayAM");
 }
 
 function displaySundayAM() {
@@ -121,6 +122,7 @@ sundayPMsave.addEventListener("click", saveSundayPM);
 function saveSundayPM(event) {
   event.preventDefault();
   localStorage.setItem("sundayPM", sundayPMinput.value);
+  sundayPMdisplay.textContent = localStorage.getItem("sundayPM");
 }
 
 function displaySundayPM() {
@@ -138,6 +140,7 @@ mondayAMsave.addEventListener("click", saveMondayAM);
 function saveMondayAM(event) {
   event.preventDefault();
   localStorage.setItem("mondayAM", mondayAMinput.value);
+  mondayAMdisplay.textContent = localStorage.getItem("mondayAM");
 }
 
 function displayMondayAM() {
@@ -155,6 +158,7 @@ mondayPMsave.addEventListener("click", saveMondayPM);
 function saveMondayPM(event) {
   event.preventDefault();
   localStorage.setItem("mondayPM", mondayPMinput.value);
+  mondayPMdisplay.textContent = localStorage.getItem("mondayPM");
 }
 
 function displayMondayPM() {
@@ -172,6 +176,7 @@ tuesdayAMsave.addEventListener("click", saveTuesdayAM);
 function saveTuesdayAM(event) {
   event.preventDefault();
   localStorage.setItem("tuesdayAM", tuesdayAMinput.value);
+  tuesdayAMdisplay.textContent = localStorage.getItem("tuesdayAM");
 }
 
 function displayTuesdayAM() {
@@ -189,6 +194,7 @@ tuesdayPMsave.addEventListener("click", saveTuesdayPM);
 function saveTuesdayPM(event) {
   event.preventDefault();
   localStorage.setItem("tuesdayPM", tuesdayPMinput.value);
+  tuesdayPMdisplay.textContent = localStorage.getItem("tuesdayPM");
 }
 
 function displayTuesdayPM() {
@@ -206,6 +212,7 @@ wednesdayAMsave.addEventListener("click", saveWednesdayAM);
 function saveWednesdayAM(event) {
   event.preventDefault();
   localStorage.setItem("wednesdayAM", wednesdayAMinput.value);
+  wednesdayAMdisplay.textContent = localStorage.getItem("wednesdayAM");
 }
 
 function displayWednesdayAM() {
@@ -223,6 +230,7 @@ wednesdayPMsave.addEventListener("click", saveWednesdayPM);
 function saveWednesdayPM(event) {
   event.preventDefault();
   localStorage.setItem("wednesdayPM", wednesdayPMinput.value);
+  wednesdayPMdisplay.textContent = localStorage.getItem("wednesdayPM");
 }
 
 function displayWednesdayPM() {
@@ -240,6 +248,7 @@ thursdayAMsave.addEventListener("click", saveThursdayAM);
 function saveThursdayAM(event) {
   event.preventDefault();
   localStorage.setItem("thursdayAM", thursdayAMinput.value);
+  thursdayAMdisplay.textContent = localStorage.getItem("thursdayAM");
 }
 
 function displayThursdayAM() {
@@ -257,6 +266,7 @@ thursdayPMsave.addEventListener("click", saveThursdayPM);
 function saveThursdayPM(event) {
   event.preventDefault();
   localStorage.setItem("thursdayPM", thursdayPMinput.value);
+  thursdayPMdisplay.textContent = localStorage.getItem("thursdayPM");
 }
 
 function displayThursdayPM() {
@@ -274,6 +284,7 @@ fridayAMsave.addEventListener("click", saveFridayAM);
 function saveFridayAM(event) {
   event.preventDefault();
   localStorage.setItem("fridayAM", fridayAMinput.value);
+  fridayAMdisplay.textContent = localStorage.getItem("fridayAM");
 }
 
 function displayFridayAM() {
@@ -291,6 +302,7 @@ fridayPMsave.addEventListener("click", saveFridayPM);
 function saveFridayPM(event) {
   event.preventDefault();
   localStorage.setItem("fridayPM", fridayPMinput.value);
+  fridayPMdisplay.textContent = localStorage.getItem("fridayPM");
 }
 
 function displayFridayPM() {
@@ -308,6 +320,7 @@ saturdayAMsave.addEventListener("click", saveSaturdayAM);
 function saveSaturdayAM(event) {
   event.preventDefault();
   localStorage.setItem("saturdayAM", saturdayAMinput.value);
+  saturdayAMdisplay.textContent = localStorage.getItem("saturdayAM");
 }
 
 function displaySaturdayAM() {
@@ -325,6 +338,7 @@ saturdayPMsave.addEventListener("click", saveSaturdayPM);
 function saveSaturdayPM(event) {
   event.preventDefault();
   localStorage.setItem("saturdayPM", saturdayPMinput.value);
+  saturdayPMdisplay.textContent = localStorage.getItem("saturdayPM");
 }
 
 function displaySaturdayPM() {
