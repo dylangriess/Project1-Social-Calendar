@@ -4,6 +4,8 @@
 
 Invading your space with a space to share fun events in your area!
 
+![WebpageSS](/assets/images/ProjectShot.JPG)
+
 
 ##  Description 
 
@@ -14,13 +16,14 @@ __We have created a shared calander for the user to be able to:__.
  - Create an event for a day of the week. 
  - Find and see local events in Denver.
  - Find and visit local Breweries.
+ - Save past events.
 
 
 ## User Story 
 
 _____________________________________________
 
-> As an adult living in Colorado, I would like to be able to create and save events and messages. I would also like to be able to see some delecious breweries, fun shows,  and other cool events that I could add to my shared calander. 
+> As an adult living in Colorado, I would like to be able to create and save events and messages. I would also like to be able to see some delecious breweries, fun shows, and other cool events that I could add to my shared calander. There is an add Event section at the bottom for the user to save past events.  
 
 
 ### API Usage
@@ -40,4 +43,8 @@ We used the following API's in this project:
 _____________________________________________
 
 
-![image](https://user-images.githubusercontent.com/109988819/185680295-4092c7cb-d2d6-40da-bb82-a8a708a942e6.png)
+![image](/assets/images/wireframe.JPG)
+
+
+ 
+
