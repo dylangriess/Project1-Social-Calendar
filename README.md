@@ -27,10 +27,12 @@ _____________________________________________
 
 _____________________________________________
 
-We used the following API's in this project
+
+We used the following API's in this project:
 
 1. Ticketmaster - This widget runs at the bottom of the screen and shows upcoming events in the Denver Area
 2. Open Brewery - This application provides a list of breweries in Denver. We turned this into a random slector for the best user expereince.  
+
 
 
 ### Project Wireframe
@@ -38,4 +40,4 @@ We used the following API's in this project
 _____________________________________________
 
 
-![Our Wireframe](/assets/Images/Whiteboard-Shot.png "Wireframe")
+![image](https://user-images.githubusercontent.com/109988819/185680295-4092c7cb-d2d6-40da-bb82-a8a708a942e6.png)
