@@ -214,8 +214,7 @@ td textarea {
 
 .accordion {
   border: 3px solid var(--darkBlue);
-  --bs-accordion-btn-bg: var(--lightGreen);
-  --bs-accordion-active-color: var(--darkBlue);
+  --bs-accordion-btn-bg: var(--beige);
 }
 
 .form-select {
