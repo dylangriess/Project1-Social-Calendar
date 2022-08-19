@@ -33,7 +33,7 @@ body {
 .ticketMaster {
   width: 50%;
   height: 300px;
-  padding: 5px;
+  padding: 20px;
   box-sizing: border-box;
   margin: 20px;
   border: var(--beige) 3px solid;
@@ -45,7 +45,7 @@ body {
 .pastEvents {
   width: 70%;
   height: 300px;
-  padding: 5px;
+  padding: 20px;
   box-sizing: border-box;
   margin: auto;
   border: var(--beige) 3px solid;
@@ -54,8 +54,11 @@ body {
   border-radius: 20px;
 }
 
-.pastEventsContainer {
-  display: flex;
+#past-event-list {
+  color: var(--beige);
+  position: relative;
+  left: 480px;
+  bottom: 190px;
 }
 
 .button {
@@ -207,4 +210,37 @@ td textarea {
 .widget {
   display: flex;
   justify-content: center;
+}
+
+.accordion {
+  border: 3px solid var(--darkBlue);
+  --bs-accordion-btn-bg: var(--lightGreen);
+  --bs-accordion-active-color: var(--darkBlue);
+}
+
+.form-select {
+  padding: 2px;
+}
+
+.form-control {
+  height: 125px;
+}
+
+.accordion-button {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#notes-section {
+  font-size: 12px;
+}
+
+#close-accordion {
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+#save-accordion {
+  font-size: 12px;
+  margin-right: 6px;
 }
