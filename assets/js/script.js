@@ -61,6 +61,8 @@ showEvents();
 var eventFormEl = $("#event-form");
 var pastEventListEl = $("#past-event-list");
 
+var allItems = JSON.parse(window.localStorage.getItem("eventItem")) || [];
+
 function handleFormSubmit(event) {
   event.preventDefault();
 
@@ -75,8 +77,6 @@ function handleFormSubmit(event) {
 
   $('input[name="event-input"]').val("");
 
-  var allItems = JSON.parse(window.localStorage.getItem("eventItem")) || [];
-
   allItems.push(eventItem);
 
   localStorage.setItem("eventItem", JSON.stringify(allItems));
@@ -84,4 +84,13 @@ function handleFormSubmit(event) {
 
 eventFormEl.on("submit", handleFormSubmit);
 
-pastEventListEl.append(localStorage.getItem("eventItem"));
+function displayEvents() {
+  console.log(allItems);
+  if (!allItems) {
+    return;
+  }
+  for (i = 0; i < allItems.length; i++) {
+    pastEventListEl.append("<li>" + allItems[i] + "</li>");
+  }
+}
+displayEvents();
