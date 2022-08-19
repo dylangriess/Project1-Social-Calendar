@@ -74,6 +74,14 @@ function handleFormSubmit(event) {
   pastEventListEl.append("<li>" + eventItem + "</li>");
 
   $('input[name="event-input"]').val("");
+
+  var allItems = JSON.parse(window.localStorage.getItem("eventItem")) || [];
+
+  allItems.push(eventItem);
+
+  localStorage.setItem("eventItem", JSON.stringify(allItems));
 }
 
 eventFormEl.on("submit", handleFormSubmit);
+
+pastEventListEl.append(localStorage.getItem("eventItem"));
