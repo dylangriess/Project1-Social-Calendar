@@ -94,3 +94,20 @@ function displayEvents() {
   }
 }
 displayEvents();
+
+// <SUNDAY AM>
+var sundayAMinput = document.getElementById("sunday-am");
+var sundayAMsave = document.getElementById("sunday-am-save");
+var sundayAMdisplay = document.getElementById("sunday-am-display");
+
+sundayAMsave.addEventListener("click", saveSundayAM);
+function saveSundayAM(event) {
+  event.preventDefault();
+  localStorage.setItem("sundayAM", sundayAMinput.value);
+}
+
+function displaySundayAM() {
+  sundayAMdisplay.textContent = localStorage.getItem("sundayAM");
+}
+displaySundayAM();
+// </SUNDAY AM>
